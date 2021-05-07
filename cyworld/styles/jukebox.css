@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+
+.wrapper__header {
+    width: 464px;
+    /* background-color: indigo; */
+   
+    
+}
+.wrapper__header .divider {
+    /* margin-top : 8px;  */
+    padding-top: 8px;
+    border-bottom: 1px solid #999999;
+    
+
+  
+}
+
+
+.album-wrapper{
+    width: 464px;
+    height: 198px;
+    /* background-color: crimson; */
+}
+
+
+
+.album-wrapper__item{
+    width: 464px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.album-image1{
+    width: 120px;
+    height: 120px;
+    margin-left: 16px;
+
+}
+
+.album-image2{
+    width: 120px;
+    height: 120px;
+    margin-left: 36px;
+}
+
+.album-image3{
+    width: 120px;
+    height: 120px;
+    margin-left: 36px;
+}
+
+.album-wrapper__song{
+    width: 464px;
+    height: 15px;
+    /* background-color: royalblue; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    color:#0F465E;
+   
+    
+
+
+}
+
+
+.aaa{
+    width: 120px;
+    height: 15px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.bbb{
+    width: 120px;
+    height: 15px;
+    margin-left: 41px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ccc{
+    width: 120px;
+    height: 15px;
+    margin-left: 41px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.album-wrapper__singer{
+    width: 464px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color:#999999;
+
+}
+
+.ddd{
+    width: 120px;
+    height: 15px;
+    font-weight: bold;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Malgun Gothic;
+}
+
+.eee{
+    width: 120px;
+    height: 15px;
+    margin-left: 41px;
+    font-weight: bold;
+    font-family: Malgun Gothic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fff{
+    width: 120px;
+    height: 15px;
+    font-family: Malgun Gothic;
+    margin-left: 41px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper__body {
+    width: 464px;
+    
+}
+
+.wrapper__body .sub-title {
+    margin-bottom: 8px;
+    background-color: red;
+}
+
+.album-table{
+    width: 464px;
+    height: 120px;
+    border: 1px black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.album-table th {
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    background-color: #EEEEEE;
+    border-top: 1px solid gray;
+    border-bottom: 1px dashed gray;
+    border-left: none;
+    border-right: none;
+      
+}
+
+
+.album-table td {
+    height: 20px;
+    font-size: 10px;
+    color: #0F465E;
+    border-bottom: 1px dashed gray;
+    border-left: none;
+    border-right: none;
+    
+    
+}
+
+.arrow {
+    width: 12px;
+    height: 12px;
+    color: red;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 7.2px;
+    margin-top: 2.5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    line-height: 1;
+    float: left;
+    margin-left: 8px;
+  
+} 
+
+.wrapper__bottom{
+    width: 464px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin-top: 10px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color:#999999;
+
+    
+}
+
+.wrapper__bottom .button1{
+    width: 32px;
+    height: 20px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 57.43%, #DDDDDD 100%);
+    border: 1px solid #999999;
+    border-radius: 5px;
+}
+
+.wrapper__bottom .page{
+    width: 14px;
+    height: 10px;
+    color:#FF6400;
+    border : 1px solid #999999;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5px;
+    margin-left: 193px;
+    /* background-color: greenyellow; */
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+   
+    
+}
+
+.wrapper__bottom .button2{
+    width: 32px;
+    height: 20px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 57.43%, #DDDDDD 100%);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-left: 109px;
+}
+
+.wrapper__bottom .button3{
+    width: 76px;
+    height: 20px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 57.43%, #DDDDDD 100%);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+

@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    width: 60px;
+    height: 132px;
+    position: absolute;
+    top: 115px;
+    left: 784px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.menu__item1 {
+    width: 60px;
+    height: 30px;
+    background-image: url('../image/menu-item.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    font-size: 12px;
+    color: white;
+    padding-left: 6px;
+    cursor: pointer;
+    }
+
+.menu__item2 {
+     width: 60px;
+    height: 30px;
+    background-image: url('../image/menu-item.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;        
+    align-items:center;
+    font-size: 12px;
+    color: white;
+    padding-left: 6px;
+    cursor: pointer;
+    }
+
+    .menu__item3 {
+        width: 60px;
+        height: 30px;
+        background-image: url('../image/menu-item.png');
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        font-size: 12px;
+        color: white;
+        padding-left: 6px;
+        cursor: pointer;
+        }
+
+        .menu__item4 {
+            width: 60px;
+            height: 30px;
+            background-image: url('../image/menu-item.png');
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+            font-size: 12px;
+            color: white;
+            padding-left: 6px;
+            cursor: pointer;
+            
+        }           
+.background {
+    width: 1024px;
+    height: 600px;
+    background-image: url('/cyworld/image/background.png');
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.outer-box {
+    width:808px;
+    height: 544px;
+    background-image: url('/cyworld/image/outer-box.png') ;
+    background-size: 100% 100%;
+    padding-top: 18px;
+    padding-left: 20px;
+
+
+}
+
+.box-line {
+    width:768px;
+    height: 508px;
+    background-image: url('/cyworld/image/box-line.png') ;
+    padding: 6px;
+}
+
+.inner-box{
+    width:756px;
+    height:496px;
+    background-image: url('/cyworld/image/inner-box.png') ;
+    display: flex;
+    flex-direction : row;
+    justify-content: space-around;
+    
+    
+
+}
+
+
+.inner-box__left {
+    width: 220px;
+    height: 490px;
+    padding-left: 6px;
+   
+    
+    
+}
+
+.inner-box__left__header {
+    width :208px;
+    height : 38px;
+    display :inline-flex;
+    flex-direction: row ;
+    justify-content:  center;
+    align-items:  flex-end;
+    
+}
+   
+  
+ 
+
+.inner-box__left__body {
+    width :208px;
+    height : 440px;
+    background-color : white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 6px;
+    
+        
+}
+
+.inner-box__left__body__box {
+    width :148px;
+    height : 440px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px ;
+  
+    
+    
+}
+
+
+.inner-box__left__body__box .photo{
+    width :148px;
+    height : 133px;
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: start; */
+    margin-top: 20px;
+    
+}
+
+
+.inner-box__left__body__box .profile{
+    width :148px;
+    height : 187px;
+    /* background-color: palegreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* margin-top: 20px; */
+    background-color: lightcoral;
+    
+}
+
+    
+
+.inner-box__left__body__box .edit {
+    width :148px;
+    height :10px;
+    font-family: Sci Fied Bitmap;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; 
+    background-color: khaki;
+    
+}
+   
+.line1{
+    border-bottom:2px solid black;
+    
+    padding-top: 30px;
+
+}
+
+.AAA{
+    width: 140px; 
+    height: 48px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-bottom: 22px;  
+    background-color: cyan;
+
+}
+
+.moodselcet{ 
+    width: 140;
+    height: 18px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+   
+    
+    
+    
+}
+
+.inner-box__left__body__box .bottom .moodselcet > select {
+    width: 140px;
+    height: 18px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+  
+   
+    
+   
+
+
+}
+
+.inner-box__left__body__box .bottom{
+    Width: 148px;
+    Height:90px;
+    box-sizing: border-box;
+    padding-top:22px ;
+    
+    background-color: lawngreen;
+ 
+}
+
+
+.mood{
+    Width: 59px;
+    Height:15px;
+    color: #000000;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+   
+    
+  
+
+   
+
+}
+    
+    
+.inner-box__right {
+    width: 542px;
+    height: 490px;
+    z-index: 1;
+    
+
+    
+ 
+    
+}
+
+.inner-box__right__header {
+    width :524px;
+    height : 44px;
+    display : flex;
+    flex-direction: row;
+    justify-content:  flex-start;
+    align-items:  flex-end;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 30px;
+   
+}
+
+.inner-box__right__body {
+    width : 524px;
+    height : 440px;
+    background-color : white;
+    border: 1px solid gray;
+    border-radius: 15px;
+   
+  
+}
+
+
+
+
+

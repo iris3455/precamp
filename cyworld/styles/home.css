@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top:20px;
+    padding-left:20px;
+}
+.topview {
+    width: 470px;
+    height: 45px;
+}
+.topviewTitleWrapper{
+    width:173px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:8px;
+}
+.divideLine{
+    border-bottom:1px solid rgba(0,0, 0, 0.1);
+    margin-bottom:8px;
+}
+    
+.topview_mood {
+    display : flex;
+    flex-direction: row;
+    font-family: Malgun Gothic;
+    font-style: normal;  
+    font-size: 11px;
+
+    
+}
+
+.topview_News {
+    display : flex;
+    flex-direction: row;
+    font-family: Malgun Gothic;
+    font-style: normal;  
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.topview_Todaystory {
+    display : flex;
+    flex-direction: row;
+    font-family: Sci Fied Bitmap;
+    font-style: normal;  
+    font-weight: bold;
+    font-size: 8px;
+
+}
+
+.middleview {
+    width: 524px;
+    height: 95px;
+
+}                
+  
+
+.middleview_introduction {
+    display : flex;
+    flex-direction: row;
+    font-family: Malgun Gothic;
+    font-style: normal;  
+    font-weight: bold;
+    padding-top:72px;
+    
+    
+ 
+}
+
+
+
+
+.inner-box__right__body__box{
+    width : 464px;
+    height : 240px;
+    background-color :#C4C4C4;
+}
